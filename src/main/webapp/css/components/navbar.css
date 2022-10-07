@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+/* Navbar container */
+.navbar {
+  	background-color: #E1C7A2;
+  	color: #2C1810;
+}
+
+/* login button */
+.login-btn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: inherit;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.login-btn:hover {
+	background-color: #DAAA63;
+  	transition: 0.3s ease;
+  	cursor: pointer;
+}
+
+/* nav-link */
+.nav-link{
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: inherit;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.nav-link:hover {
+	background-color: #DAAA63;
+  	transition: 0.3s ease;
+  	cursor: pointer;
+}
+
+/* navbar logo */
+i.fa-solid.fa-book-open{
+	font-size: 20px;
+  	color: #2C1810;
+}
+
+.dropdown-menu{
+	background-color: #E1C7A2;
+	color: #2C1810;
+}
+
+.dropdown-item:hover {
+	background-color: #DAAA63;
+  	transition: 0.3s ease;
+  	cursor: pointer;
+}
+
+.fa-user {
+	margin: 4px;
+}
+
+

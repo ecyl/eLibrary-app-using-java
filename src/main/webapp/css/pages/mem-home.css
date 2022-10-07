@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+.mem-home-body{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-body {
+	background-color: #5B7B7A;
+	color: #F2EBE3;
+}
+
+.card-link {
+	color: inherit;
+}
+
+.card-link:hover {
+	color: #DAAA63;
+  	transition: 0.3s ease;
+  	cursor: pointer;
+}
+
+.welcome-mem{
+	padding: 30px;
+	margin-top: 30px;
+}
+
+.mem-stats{
+	background-color: #DAAA63;
+	border: 1px solid #DAAA63;
+	margin-top: 60px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.mem-options {
+	border: 1px solid #DAAA63;
+	border-radius: 8px;
+	margin-top: 24px;
+    padding: 12px;
+}
+
+.options-header {
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.options-body {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.fa-book, .fa-book-bookmark, .fa-heart {
+	font-size: 24px;
+}

@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+.admin-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1583526241256-cb18e8635e5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 20%);
+    height: 40vh;
+}
+
+.admin-banner-info {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.stats {
+	 box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+	 border-radius: 5px;
+	 background-color: rgba(255, 255, 255, .15);
+	 backdrop-filter: blur(5px);
+	 justify-content: center;
+	 width: 30rem;
+	 height: 20rem;
+	 flex-direction: column;
+}
+
+#number{
+	text-align: center;
+	font-size: 100px;
+}
+
+#caption {
+	text-align: center;
+	margin-top: 8px;
+}
+
+#caption>a{
+	text-decoration: none;
+	color: white;
+}
+
+#caption>a:hover{
+	color: #DAAA63;
+}
+  
+.admin-options a{
+	text-decoration: none;
+	color: inherit;
+	
+}
+
+.admin-body{
+	margin: 30px;
+	border: 1px solid #DAAA63;
+	border-radius: 8px;
+	padding: 20px;
+	width: 100%;
+}
+
+.admin-options{
+	font-size: 20px;
+}
+
+.text-center {
+	text-align: center;
+}

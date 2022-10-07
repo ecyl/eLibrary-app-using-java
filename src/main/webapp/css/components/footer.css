@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #E1C7A2;
+    text-align: center;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-direction: column;
+    color: #2C1810;
+}
+
+.footer-body .fa-brands{
+    font-size: 20px;
+    margin-left: 8px;
+    color: #2C1810;
+}

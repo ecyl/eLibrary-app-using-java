@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* import components stylesheets */
+@import url(components/navbar.css);
+@import url(components/footer.css);
+@import url(components/button.css);
+@import url(components/card.css);
+
+/* import pages stylesheets */
+@import url(pages/index.css);
+@import url(pages/mem-login.css);
+@import url(pages/admin-home.css);
+@import url(pages/mem-home.css);
+@import url(pages/library.css);
+@import url(pages/update-details.css);
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #F2EBE3;
+    color: #2C1810;
+}
+
+.alert {
+	margin-bottom: 0;
+}

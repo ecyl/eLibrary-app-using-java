@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+button.add-new-btn{
+	border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.borrow {
+    background-color: #DAAA63;
+    padding: 6px;
+    font-family: inherit;
+    font-weight: bolder;
+    width: 100%;
+    border: none; 
+    cursor: pointer;
+}
+
+.grey-btn {
+	width: 100%;
+	border: none;
+}
+
+.grey-btn:hover {
+	background-color: #808080;
+	cursor: pointer;
+}
+
+.fav-btn{
+	width: 100%;
+	text-align: right;
+	background: none;
+	border: none;
+	color: #eb4034;
+}
+
+.fav-btn>.fa-heart{
+	padding: 8px;
+}
+
+.fav-btn>.fa-heart:hover{
+	color: #ff8080;
+	cursor: pointer;
+}
+
+.borrow-btn, .return-btn, .green-btn{
+	width: 100%;
+	background: #5dbea3;
+    border: none;
+    cursor: pointer;
+}
+
+.remove-btn {
+	width: 100%;
+	background: indianred;
+	border: none;
+	cursor: pointer;
+}
